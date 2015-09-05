@@ -222,10 +222,14 @@ Hero
 /* ==========================================================================
 Intro
 ========================================================================== */
-.intro { background: #f3f5f8; }
-.intro { background: url('../img/keyboard-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0 140px; }
-.intro p { margin: 50px 0 0; }
-h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
+/* .intro { background: #f3f5f8; } */
+.intro { background: #f3f5f8; background: url('../img/Hands_On_Helping/collage.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 145px 0 145px; }
+.intro p { font-family: 'Open Sans', sans-serif; padding: 25px 0 25px; -webkit-text-stroke: 1px black; color: white; text-shadow: 1px 1px 0 #000, -1px -1px 0 #000,  1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+h1.arrow { font-size: 20px; text-transform: uppercase; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
+#About_Title,#About_Link, #About_Txt p { font-family: 'Open Sans', sans-serif; font-weight: 700; font-size: 20px; -webkit-text-stroke: 1px black; color: white; text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,  1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+#About_Link { font-size: 16px; color: #3dc973; }
+#About_Link:hover, #About_Link:focus { color: gold; text-decoration: none; }
+
 /* ==========================================================================
 Features
 ========================================================================== */
