@@ -768,7 +768,7 @@ h1.arrow {
   position: relative;
 }
 /* ==========================================================================
- * Swag
+ * Swag / Tag Line
  * ========================================================================== */
 
 .swag {
@@ -779,6 +779,9 @@ h1.arrow {
   background-size: cover;
   background-attachment: fixed;
   padding: 50px 0;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .swag h1 {
   color: #fff;
@@ -1159,8 +1162,8 @@ ul.slides li {
   animation-delay: 1s;
   -webkit-animation-delay: 1s;
 }
-.wp3 {
-  background: url('../img/iphone-bg.png') no-repeat center center;
+#iphone-actual {
+  background: url('../img/Hands_On_Helping/Smiling_Children_In_Doorway.jpg') no-repeat center center;
   background-position: 200px 10px;
   height: 100%;
 }
