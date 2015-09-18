@@ -552,7 +552,8 @@ nav ul li a:focus {
   -o-border-radius: 1px;
   height: 5px;
   width: 35px;
-  background: #353535;
+  /* background: #353535; */
+  background: red;
   position: absolute;
   display: block;
   content: '';
