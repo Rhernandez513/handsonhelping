@@ -1165,6 +1165,6 @@ ul.slides li {
 }
 #iphone-actual {
   background: url('../img/Hands_On_Helping/Smiling_Children_In_Doorway.jpg') no-repeat center center;
-  background-position: 200px 10px;
+  background-position: left;
   height: 100%;
 }
