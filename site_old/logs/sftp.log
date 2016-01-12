@@ -1,8 +1,0 @@
-Aug 10 10:58:00 8.28.180.2 u46058034 Connection from 8.28.180.2 port 44589
-Aug 10 10:58:25 8.28.180.2 u46058034 Accepted password for u46058034 from 8.28.180.2 port 44589 ssh2
-Aug 10 11:01:23 8.28.180.2 u46058034 Received disconnect from 8.28.180.2: 11: disconnected by user
-Aug 10 11:10:49 8.28.180.2 u46058034 Connection from 8.28.180.2 port 43406
-Aug 10 11:11:01 8.28.180.2 u46058034 Accepted password for u46058034 from 8.28.180.2 port 43406 ssh2
-Aug 10 11:14:48 8.28.180.2 u46058034 Received disconnect from 8.28.180.2: 11: disconnected by user
-Aug 10 11:55:28 8.28.180.2 u46058034 Connection from 8.28.180.2 port 46056
-Aug 10 11:55:33 8.28.180.2 u46058034 Accepted password for u46058034 from 8.28.180.2 port 46056 ssh2
