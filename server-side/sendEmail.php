@@ -1,10 +1,19 @@
 <?php
 require 'vendor/autoload.php';
+
+#ENV VARS
+$dotenv = new Dotenv\Dotenv(__DIR__);
+$dotenv->load();
+$MAILGUN_KEY = getenv('MAILGUN_KEY');
+$DOMAIN = getenv('DOMAIN');
+$SENTTOEMAIL = getenv('SENTTOEMAIL');
+
+# MAILGUN
 use Mailgun\Mailgun;
 
 # Instantiate the client.
-$mgClient = new Mailgun('key-1e0e35d7a87836a18d57458ee8b72fb5');
-$domain = "sandboxb72c261a4a944926a7b229df938bbfc3.mailgun.org";
+$mgClient = new Mailgun($MAILGUN_KEY);
+$domain = $DOMAIN;
 
 # User Name
 $name = htmlspecialchars($_POST['name']);
@@ -12,7 +21,7 @@ $name = htmlspecialchars($_POST['name']);
 $addr = htmlspecialchars($_POST['email']);
 
 $destination = $name . "<" . $addr . ">";
-$RyanEmail = "Ryan " . htmlspecialchars('thaiandoloco@gmail.com');
+$RyanEmail = "Ryan " . htmlspecialchars($SENDTOEMAIL);
 
 # Make the call to the client.
 $result = $mgClient->sendMessage($domain, array(
