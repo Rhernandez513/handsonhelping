@@ -1,8 +1,8 @@
-# handsonhelping
-handsonhelping.org project
-
-in-progress website build for handsonhelping.org - a charity that builds schools in Thailand/Cambodia
+Hands On Helping - a charity that builds schools in Thailand/Cambodia
 
 
 // Built by Robert David Hernandez
 // http://RobertHernandez.io/
+
+// Design template by Peter Finlan
+// http://www.peterfinlan.com/
